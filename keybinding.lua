@@ -87,11 +87,11 @@ function module.apply_to_config(config)
 			mods = "ALT",
 			action = act.ActivatePaneDirection("Down"),
 		},
-		{
-			key = "f",
-			mods = "ALT",
-			action = wezterm.action.ToggleFullScreen,
-		},
+		-- {
+		-- 	key = "f",
+		-- 	mods = "ALT",
+		-- 	action = wezterm.action.ToggleFullScreen,
+		-- },
 		{
 			key = "c",
 			mods = "CTRL|SHIFT",
